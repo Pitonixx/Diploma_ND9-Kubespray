@@ -1,7 +1,7 @@
 # Diploma_ND9-Kubespray
  
 ## Создание кластера Kubernetes с помощью Kubesparay.
-Параметры кластера - файл inventory.ini.
+Параметры кластера - файл [inventory.ini](https://github.com/Pitonixx/Diploma_ND9-Kubespray/blob/main/inventory/diploma/inventory.ini).
 
 Для доступа ansible к нодам в файле inventory/diploma/group_vars/all/all.yml добавлен параметр "ansible_user", для которого в локальном профиле среды выполнения ansible-playbook созданы ssh-ключи, a публичный передан виртуальным машинам при создании инфраструктуры кластера.
 
